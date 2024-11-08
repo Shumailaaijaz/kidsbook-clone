@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+@font-face {
+    font-family: Skranji;
+
+    src: url(asset/Skranji-Bold.ttf);
+}
+@font-face {
+    font-family: sweetcherry;
+    src: url(asset/SweetCherry.otf);
+}
+.book_cover {
+    /* border: 1px solid; */
+    width: 40%;
+    margin: 70px auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+}
+.top_heading h1 {
+    text-align: center;
+    margin: 32px auto;
+    font-family: Righteous;
+    color: #fff;
+}
+.top_heading {
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    padding: 20px;
+    background: #8E2DE2;  
+}
+.main_heading{
+    text-align: center;
+}
+.main_heading h2,h3 {
+    font-size: 76px;
+    text-align: center;
+    font-family: Satisfy;
+    color: red;
+}
+.main_heading h3{
+    font-family: sweetcherry;
+    color: #ee1d90;
+}
+.center_img{
+    text-align: center;
+}
+.center_img img {
+    width: 80%;
+}
+.buttons {
+    text-align: center;
+}
+.buttons img {
+    width: 40%;
+}
+
